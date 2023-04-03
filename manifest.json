@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "File Monitor App",
+  "version": "1.0",
+  "description": "Monitors a system file for changes",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "fileSystem"
+  ]
+}
